@@ -23,6 +23,23 @@ public class HumbleCalculator
         double resultado = 0; 
         
         // TODO: Usa switch para calcular según la operación
+
+        switch(operation)
+        {
+            case 1: resultado = num1 + num2;
+            break;
+
+            case 2: resultado = num1 - num2;
+            break;
+
+            case 3: resultado = num1 * num2;
+            break;
+
+            default:
+                resultado =0;
+            break;        
+        }
+        
         // Ejemplo: switch(operation) { case 1: resultado = num1 + num2; break; ... }
         
         return resultado;
